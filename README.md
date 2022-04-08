@@ -2,12 +2,18 @@
 
 ## Project setup
 ```
+nvm use
+
 npm install
+
+create root folder called data and then create json file called tickets
+
+npx json-server --watch data/tickets.json
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run serve -- --port 8080
 ```
 
 ### Compiles and minifies for production
